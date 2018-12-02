@@ -27,3 +27,4 @@ print_map() ->
     Lst01 = [{"data",100}], 
     Map01 = maps:from_list(Lst01), 
     io:fwrite("~p~n",[maps:get("data",Map01)]).
+
